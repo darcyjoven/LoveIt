@@ -30,7 +30,8 @@
                 {{- if $params.linktomarkdown -}}
                     {{- with .OutputFormats.Get "markdown" -}}
                         <span>
-                            <a class="link-to-markdown" href="{{ .RelPermalink }}" target="_blank">
+                            <!-- <a class="link-to-markdown" href="{{ .RelPermalink }}" target="_blank"> -->
+                            <a class="link-to-markdown" href="{{ $.Site.Params.gitRepo }}/{{ $.Site.Params.gitEditPath }}/{{ $.Site.Params.contentDir | default "content" }}/{{ replace $.File.Path "\\" "/" }}" target="_blank">
                                 {{- T "readMarkdown" -}}
                             </a>
                         </span>

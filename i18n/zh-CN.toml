@@ -133,7 +133,7 @@ other = "作者"
 other = "更新于 {{ .Date }}"
 
 [readMarkdown]
-other = "阅读原始文档"
+other = "修改原始文档"
 
 [back]
 other = "返回"
