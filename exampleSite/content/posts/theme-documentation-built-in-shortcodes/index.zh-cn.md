@@ -139,18 +139,6 @@ For more information please have a look at GitHub issue [#7879](https://github.c
 
 ## 7 tweet
 
-[`tweet` 的文档](https://gohugo.io/content-management/shortcodes#tweet)
-
-一个 `tweet` 示例:
-
-```markdown
-{{</* tweet 917359331535966209 */>}}
-```
-
-呈现的输出效果如下:
-
-{{< tweet 917359331535966209 >}}
-
 ## 8 vimeo
 
 [`vimeo` 的文档](https://gohugo.io/content-management/shortcodes#vimeo)
